@@ -1,4 +1,4 @@
-import {ADD, REMOVE, UPDATE_TOTAL} from '../actions/index';
+import {ADD, REMOVE, UPDATE_TOTAL} from "../actions/index";
   
   const initialState = {
     additionalPrice: 0,

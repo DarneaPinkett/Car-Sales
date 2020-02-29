@@ -1,25 +1,25 @@
-export const ADD_ITEM = 'ADD';
-export const REMOVE_ITEM = 'REMOVE';
+export const ADD = 'ADD';
+export const REMOVE = 'REMOVE';
 export const UPDATE_TOTAL = 'UPDATE_TOTAL';
 
 
-export const addFeature = (item) => {
+export const addFeature = (feature) => {
     return {
         type: ADD,
-        payload: item
+        payload: feature
     }
 }
 
-export const removeFeature = (item) => {
+export const removeFeature = (feature) => {
     return {
         type: REMOVE,
-        payload: item
+        payload: feature
     }
 }
 
-export const updateTotal = (item) => {
+export const updateTotal = (total) => {
     return {
         type: UPDATE_TOTAL,
-        payload: item
+        payload: total
     }
 }
